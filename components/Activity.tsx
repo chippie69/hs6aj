@@ -12,7 +12,7 @@ const Activities = () => {
           กิจกรรมที่ผ่านมาของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ
         </p>
         <Link href="/activities">
-          <Button variant="outline" className="my-4">
+          <Button>
             ดูทั้งหมด
           </Button>
         </Link>

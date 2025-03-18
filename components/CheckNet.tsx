@@ -18,32 +18,25 @@ const CheckNet = () => {
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
             <h3 className="text-xl font-semibold">ระบบ FM</h3>
             <p className="mt-2 text-gray-600">
-              Repeater E24BD 145.6875 MHz Dup-600 KHz โทน CTCSS
-              103.5 Hz
+              Repeater E24BD 145.6875 MHz Dup-600 KHz โทน CTCSS 103.5 Hz
             </p>
-            <Link href="/repeater">
-              <Button>
+            <Link href="/repeater" className="">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-4 mt-2 rounded-lg cursor-pointer">
                 ข้อมูลเพิ่มเติม
               </Button>
             </Link>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
             <h3 className="text-xl font-semibold">ระบบ AllStarLink</h3>
-            <p className="mt-2 text-gray-600">
-              AllStarLink Node 597910
-            </p>
+            <p className="mt-2 text-gray-600">AllStarLink Node 597910</p>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
             <h3 className="text-xl font-semibold">ระบบ Echolink</h3>
-            <p className="mt-2 text-gray-600">
-              Echolink E25LO-R
-            </p>
+            <p className="mt-2 text-gray-600">Echolink E25LO-R</p>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
             <h3 className="text-xl font-semibold">ระบบ D-STAR</h3>
-            <p className="mt-2 text-gray-600">
-              D-STAR XLX 149 Module P
-            </p>
+            <p className="mt-2 text-gray-600">D-STAR XLX 149 Module P</p>
           </div>
         </div>
       </div>
