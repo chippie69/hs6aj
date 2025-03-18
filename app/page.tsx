@@ -1,9 +1,21 @@
-import { Button } from "@/components/ui/button";
+import Hero from "@/components/Hero";
+import History from "@/components/History";
+import Members from "@/components/Members";
+import Faq from "@/components/Faq";
+import CheckNet from "@/components/CheckNet";
+import Register from "@/components/Register";
+import Activity from "@/components/Activity";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
+    <>
+      <Hero />
+      <History />
+      <CheckNet />
+      <Register />
+      <Activity />
+      <Members />
+      <Faq />
+    </>
   );
 }
