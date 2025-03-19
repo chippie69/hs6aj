@@ -9,8 +9,6 @@ import {
   Sheet,
   SheetTrigger,
   SheetContent,
-  SheetTitle,
-  SheetDescription,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { links } from "@/constant";
@@ -35,10 +33,10 @@ const MobileNav = () => {
         </Button>
       </SheetTrigger>
       <SheetContent className="flex flex-col">
-        <div>
+        <div className="p-8">
           <Link href="/">HOME</Link>
           <div className="mt-6">
-            <div className="font-bold mb-2">เมนู</div>
+            <div className="text-xl font-bold mb-2">เมนู</div>
             <ul className="space-y-4 pl-4">
               {links.map((link, index) => {
                 return (

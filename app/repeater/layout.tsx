@@ -1,7 +1,7 @@
 export async function generateMetadata() {
     return {
-      title: `เกี่ยวกับเรา - HS6AJ`,
-      description: "รายละเอียดเกี่ยวกับเรา",
+      title: `Repeater E24BD - HS6AJ`,
+      description: "รายละเอียดเกี่ยวกับ E24BD",
       keywords: ["hs6aj", "hamradio", "amateur radio", "thailand"],
       authors: [{ name: "HS6AJ", url: "https://test.test/" }],
     };

@@ -20,7 +20,8 @@ const Members = () => {
                 className="rounded-full mx-auto"
               />
               <h3 className="text-xl font-semibold mt-4">{member.name}</h3>
-              <p className="text-gray-600">{member.position}</p>
+              <p className="text-lg italic">{member.callsign}</p>
+              <p className="text-sm text-gray-600">{member.position}</p>
             </div>
           ))}
         </div>

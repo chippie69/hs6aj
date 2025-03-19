@@ -1,7 +1,9 @@
-import Image from "next/image";
 
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
+
+import ActivityCard from "@/components/ActivityCard";
+import { activities } from "@/constant/activities";
 
 const Activities = () => {
   return (
@@ -12,83 +14,14 @@ const Activities = () => {
           กิจกรรมที่ผ่านมาของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ
         </p>
         <Link href="/activities">
-          <Button>
+          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 my-4 text-lg rounded-lg">
             ดูทั้งหมด
           </Button>
         </Link>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <Image
-              src="https://dummyimage.com/800x600/000/fff"
-              alt="activity_1"
-              width={800}
-              height={600}
-            />
-            <h3 className="text-xl font-semibold mt-4">บริจาคสิ่งของ</h3>
-            <p className="mt-2 text-gray-600">
-              สมาคมวิทยุสมัครเล่นจังหวัดพิจิตรร่วมบริจาคสิ่งของเพื่อช่วยเหลือผู้ประสบภัยน้ำท่วม
-            </p>
-            <Link href="/activity/1">
-              <Button variant="outline" className="my-4">
-                ดูเพิ่มเติม
-              </Button>
-            </Link>
-          </div>
-          <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <Image
-              src="https://dummyimage.com/800x600/000/fff"
-              alt="activity_1"
-              width={800}
-              height={600}
-            />
-            <h3 className="text-xl font-semibold mt-4">
-              เลี้ยงอาหารกลางวันเด็กนนักเรียน
-            </h3>
-            <p className="mt-2 text-gray-600">
-              สมาคมวิทยุสมัครเล่นจังหวัดพิจิตรร่วมเลี้ยงอาหารกลางวันเด็กนักเรียน
-            </p>
-            <Link href="/activity/2">
-              <Button variant="outline" className="my-4">
-                ดูเพิ่มเติม
-              </Button>
-            </Link>
-          </div>
-          <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <Image
-              src="https://dummyimage.com/800x600/000/fff"
-              alt="activity_1"
-              width={800}
-              height={600}
-            />
-            <h3 className="text-xl font-semibold mt-4">บริจาคสิ่งของ</h3>
-            <p className="mt-2 text-gray-600">
-              สมาคมวิทยุสมัครเล่นจังหวัดพิจิตรร่วมบริจาคสิ่งของเพื่อช่วยเหลือผู้ประสบภัยน้ำท่วม
-            </p>
-            <Link href="/activity/3">
-              <Button variant="outline" className="my-4">
-                ดูเพิ่มเติม
-              </Button>
-            </Link>
-          </div>
-          <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <Image
-              src="https://dummyimage.com/800x600/000/fff"
-              alt="activity_1"
-              width={800}
-              height={600}
-            />
-            <h3 className="text-xl font-semibold mt-4">
-              เลี้ยงอาหารกลางวันเด็กนนักเรียน
-            </h3>
-            <p className="mt-2 text-gray-600">
-              สมาคมวิทยุสมัครเล่นจังหวัดพิจิตรร่วมเลี้ยงอาหารกลางวันเด็กนักเรียน
-            </p>
-            <Link href="/activity/4">
-              <Button variant="outline" className="my-4">
-                ดูเพิ่มเติม
-              </Button>
-            </Link>
-          </div>
+          {activities.slice(-4).reverse().map((activity) => (
+            <ActivityCard key={activity.id} {...activity} />
+          ))}
         </div>
       </div>
     </section>
