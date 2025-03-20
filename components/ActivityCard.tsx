@@ -20,7 +20,7 @@ const ActivityCard = ({ title, description, slug, images }: ActivityProps) => {
         height={600}
       />
       <h3 className="text-xl font-semibold mt-4">{title}</h3>
-      <p className="mt-2 text-gray-600">
+      <p className="mt-2 text-gray-600 line-clamp-4">
         {description}
       </p>
       <Link href={`/activities/${slug}`}>

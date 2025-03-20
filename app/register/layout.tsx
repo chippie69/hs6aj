@@ -1,26 +1,17 @@
-import { Metadata } from "next";
-
-interface LayoutProps {
-    params: { slug: string };
-    children: React.ReactNode;
-}
-
-export async function generateMetadata({
-    params,
-}: LayoutProps): Promise<Metadata> {
+export async function generateMetadata() {
     return {
-        title: `สมัครสมาชิก`,
-        description: `สมัครสมาชิก`,
-
-    }
-}
-
-const Layout = ({ params, children }: LayoutProps) => {
-  return (
-    <div>
-        {children}
-    </div>
-  )
-}
-
-export default Layout
+      title: `สมัครสมาชิก - HS6AJ`,
+      description: "สมัครสมาชิกกับสมาคมวิทยุสมัครจังหวัดพิจิตร",
+      keywords: ["hs6aj", "hamradio", "amateur radio", "thailand"],
+      authors: [{ name: "HS6AJ", url: "https://test.test/" }],
+    };
+  }
+  
+  export default function RootLayout({
+    children,
+  }: Readonly<{
+    children: React.ReactNode;
+  }>) {
+    return <div className="min-h-screen">{children}</div>;
+  }
+  

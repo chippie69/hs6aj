@@ -9,8 +9,7 @@ const Hero = () => {
         <Image
           src="/images/hero_image.png"
           alt="hero image"
-          layout="fill"
-          objectFit="cover"
+          fill
           className="opacity-50"
         />
       </div>
@@ -26,9 +25,18 @@ const Hero = () => {
             </Button>
           </Link>
 
-          <Button className="bg-gray-700 hover:bg-gray-800 text-white px-6 py-3 text-lg rounded-lg">
-            เพิ่มเพื่อนเลย
+          <Link href="https://lin.ee/Fk3FcoM">
+          <Button variant="line">
+            <Image
+              src="/images/LINE_Brand_icon.png"
+              alt="line icon"
+              width={30}
+              height={30}
+              className="object-fill"
+            />
+            <p className="font-bold">เพิ่มเพื่อนเลย</p>
           </Button>
+        </Link>
         </div>
       </div>
     </section>
