@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 // import { Button } from "@/components/ui/button";
 import { MapPin, Radio, Signal } from "lucide-react";
+import Image from "next/image";
 
 const RepeaterPage = () => {
   return (
@@ -82,6 +83,14 @@ const RepeaterPage = () => {
             </CardContent>
           </Card>
         </div>
+        <div className="flex items-center justify-center p-4">
+            <Image 
+              src="/images/repeater-e24bd-1.jpg"
+              alt="repeater-e24bd"
+              width={600}
+              height={800}
+            />
+          </div>
       </div>
     </div>
   );

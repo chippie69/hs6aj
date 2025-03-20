@@ -14,7 +14,7 @@ const Hero = () => {
         />
       </div>
       <div className="relative z-10 text-center px-6 max-w-3xl">
-        <h1 className="text-4xl md:text-6xl font-bold">สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร</h1>
+        <h1 className="text-4xl leading-12 md:text-6xl md:leading-20 font-bold">สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร</h1>
         <p className="my-8 text-4xl text-gray-300">
           HS6AJ
         </p>
