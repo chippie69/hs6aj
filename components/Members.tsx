@@ -1,5 +1,5 @@
-import { boardMembers } from "@/constant"
 import Image from "next/image"
+import { boardMembers, boardSpecialMembers } from "@/constant"
 
 const Members = () => {
   return (
@@ -12,6 +12,25 @@ const Members = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6'>
           {boardMembers.map((member, index) => (
             <div key={index} className="bg-white rounded-2xl shadow-lg p-4 text-center">
+              <Image 
+                src={member.image}
+                alt={member.name}
+                width={150}
+                height={150}
+                className="rounded-full mx-auto"
+              />
+              <h3 className="text-xl font-semibold mt-4">{member.name}</h3>
+              <p className="text-lg italic">{member.callsign}</p>
+              <p className="text-sm text-gray-600">{member.position}</p>
+            </div>
+          ))}
+        </div>
+        <p className="my-8 text-lg text-gray-600">
+          คณะกรรมการกิตติมศักดิ์ประจำสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร
+        </p>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6'>
+          {boardSpecialMembers.map((member, index) => (
+            <div key={index} className="bg-yellow-50 rounded-2xl shadow-lg p-4 text-center">
               <Image 
                 src={member.image}
                 alt={member.name}

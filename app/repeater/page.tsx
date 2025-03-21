@@ -89,6 +89,7 @@ const RepeaterPage = () => {
               alt="repeater-e24bd"
               width={600}
               height={800}
+              className="rounded-2xl"
             />
           </div>
       </div>

@@ -6,6 +6,7 @@ import CheckNet from "@/components/CheckNet";
 import Register from "@/components/Register";
 import Activity from "@/components/Activity";
 import Certificate from "@/components/Certificate";
+import Article from "@/components/Article";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Register />
       <Activity />
       <Members />
+      <Article />
       <Faq />
     </>
   );

@@ -113,3 +113,24 @@ export const boardMembers = [
         image: "https://dummyimage.com/150x150/000/fff",
     },
 ]
+
+export const boardSpecialMembers = [
+    {
+        name: "",
+        callsign: "",
+        position: "กรรมการกิตติมศักดิ์สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
+        image: "https://dummyimage.com/150x150/000/fff",
+    },
+    {
+        name: "",
+        callsign: "",
+        position: "กรรมการกิตติมศักดิ์สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
+        image: "https://dummyimage.com/150x150/000/fff",
+    },
+    {
+        name: "",
+        callsign: "",
+        position: "กรรมการกิตติมศักดิ์สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
+        image: "https://dummyimage.com/150x150/000/fff",
+    },
+]

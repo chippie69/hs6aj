@@ -6,6 +6,11 @@ import ActivityCard from "@/components/ActivityCard";
 import { activities } from "@/constant/activities";
 
 const Activities = () => {
+  // sort by id
+  const sortedActicities = activities
+    .sort((a, b) => Number(b.id) - Number(a.id))
+    .slice(0, 4);
+
   return (
     <section className="py-16 bg-white text-gray-900">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 text-center">
@@ -19,7 +24,7 @@ const Activities = () => {
           </Button>
         </Link>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {activities.slice(-4).reverse().map((activity) => (
+          {sortedActicities.map((activity) => (
             <ActivityCard key={activity.id} {...activity} />
           ))}
         </div>
