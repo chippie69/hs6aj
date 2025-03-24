@@ -17,8 +17,8 @@ export default function Home() {
       <CheckNet />
       <Register />
       <Activity />
-      <Members />
       <Article />
+      <Members />
       <Faq />
     </>
   );

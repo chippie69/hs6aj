@@ -16,6 +16,10 @@ export const links = [
         path: "/activities",
     },
     {
+        name: "บทความ",
+        path: "/articles",
+    },
+    {
         name: "ติดต่อเรา",
         path: "/contact",
     },

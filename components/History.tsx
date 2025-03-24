@@ -1,3 +1,4 @@
+import { Eye, Goal, Handshake } from 'lucide-react'
 import React from 'react'
 
 const History = () => {
@@ -10,19 +11,28 @@ const History = () => {
         </p>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <h3 className="text-xl font-semibold">วิสัยทัศน์สมาคม</h3>
+            <div className='flex flex-row items-center justify-center gap-4'>
+              <Eye className='h-10 w-10 text-purple-500' />
+              <h3 className="text-xl font-semibold">วิสัยทัศน์สมาคม</h3>
+            </div>
             <p className="mt-2 text-gray-600">
-            วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม 
+              วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม วิสัยทัศน์สมาคม 
             </p>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <h3 className="text-xl font-semibold">พันธกิจสมาคม</h3>
+            <div className='flex flex-row items-center justify-center gap-4'>
+              <Handshake className='w-10 h-10 text-lime-500' />
+              <h3 className="text-xl font-semibold">พันธกิจสมาคม</h3>
+            </div>
             <p className="mt-2 text-gray-600">
             พันธกิจสมาคม พันธกิจสมาคม พันธกิจสมาคม พันธกิจสมาคม พันธกิจสมาคม พันธกิจสมาคม พันธกิจสมาคม 
             </p>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <h3 className="text-xl font-semibold">จุดประสงค์สมาคม</h3>
+            <div className='flex flex-row items-center justify-center gap-4'>
+              <Goal className='w-10 h-10 text-red-500' />
+              <h3 className="text-xl font-semibold">จุดประสงค์สมาคม</h3>
+            </div>
             <p className="mt-2 text-gray-600">
             จุดประสงค์สมาคม จุดประสงค์สมาคม จุดประสงค์สมาคม จุดประสงค์สมาคม จุดประสงค์สมาคม จุดประสงค์สมาคม จุดประสงค์สมาคม จุดประสงค์สมาคม จุดประสงค์สมาคม 
             </p>
