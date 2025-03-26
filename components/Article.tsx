@@ -10,7 +10,7 @@ const Article = () => {
       .slice(0, 4);
 
   return (
-    <section className='py-20'>
+    <section id="article" className='py-20'>
       <div className='container mx-auto px-6 md:px-12 lg:px-20 text-center'>
         <h2 className='text-3xl font-bold text-center my-4'>บทความน่ารู้</h2>
         <p className="my-4 text-lg text-gray-600">

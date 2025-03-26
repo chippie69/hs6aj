@@ -27,7 +27,7 @@ export const links = [
 
 export const boardMembers = [
     {
-        name: "สุพจน์ พันสด",
+        name: "",
         callsign: "E25XQM",
         position: "นายกสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
@@ -45,7 +45,19 @@ export const boardMembers = [
         image: "https://dummyimage.com/150x150/000/fff",
     },
     {
-        name: "ชิติพัทธ์ จิราพงษ์",
+        name: "",
+        callsign: "E25RBX",
+        position: "เลขาสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
+        image: "https://dummyimage.com/150x150/000/fff",
+    },
+    {
+        name: "",
+        callsign: "E25HML",
+        position: "รองเลขาสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
+        image: "https://dummyimage.com/150x150/000/fff",
+    },
+    {
+        name: "",
         callsign: "E25ZDB",
         position: "นายทะเบียนสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
@@ -57,15 +69,9 @@ export const boardMembers = [
         image: "https://dummyimage.com/150x150/000/fff",
     },
     {
-        name: "อาจารย์ไพโรจน์",
+        name: "",
         callsign: "",
         position: "สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
-        image: "https://dummyimage.com/150x150/000/fff",
-    },
-    {
-        name: "",
-        callsign: "E25HML",
-        position: "รองเลขาสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },
     {
@@ -76,7 +82,7 @@ export const boardMembers = [
     },
     {
         name: "",
-        callsign: "WNP",
+        callsign: "E25WNP",
         position: "สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },
@@ -84,12 +90,6 @@ export const boardMembers = [
         name: "",
         callsign: "HS6EXF",
         position: "สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
-        image: "https://dummyimage.com/150x150/000/fff",
-    },
-    {
-        name: "",
-        callsign: "E25RBX",
-        position: "เลขาสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },
     {
@@ -106,13 +106,13 @@ export const boardMembers = [
     },
     {
         name: "",
-        callsign: "VUW",
+        callsign: "E25VUW",
         position: "สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },
     {
         name: "",
-        callsign: "UHZ",
+        callsign: "HS6UHZ",
         position: "สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },
@@ -121,19 +121,19 @@ export const boardMembers = [
 export const boardSpecialMembers = [
     {
         name: "",
-        callsign: "",
+        callsign: "E88XXX",
         position: "กรรมการกิตติมศักดิ์สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },
     {
         name: "",
-        callsign: "",
+        callsign: "E88XXX",
         position: "กรรมการกิตติมศักดิ์สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },
     {
         name: "",
-        callsign: "",
+        callsign: "E88XXX",
         position: "กรรมการกิตติมศักดิ์สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         image: "https://dummyimage.com/150x150/000/fff",
     },

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// import { BellRing, Check } from "lucide-react";
+import { Paperclip } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -78,7 +78,13 @@ const Register = () => {
         </Card>
       </div>
       <p className="text-2xl text-red-500 my-4">ชำระค่าธรรมเนียมผ่านบัญชี สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร เท่านั้น !</p>
-      <div className="mt-4">
+      <div className="flex flex-row items-center justify-center gap-4 mt-4">
+      <Link href="/register">
+          <Button variant="outline">
+            <Paperclip />
+            <p className="font-bold">ส่งเอกสารเลย</p>
+          </Button>
+        </Link>
         <Link href="https://lin.ee/Fk3FcoM">
           <Button variant="line">
             <Image

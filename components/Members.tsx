@@ -3,12 +3,14 @@ import { boardMembers, boardSpecialMembers } from "@/constant"
 
 const Members = () => {
   return (
-    <section className='py-20'>
+    <section id="member" className='py-20'>
       <div className='container mx-auto px-6 md:px-12 lg:px-20 text-center'>
         <h2 className='text-3xl font-bold text-center my-4'>บอร์ดคณะกรรมการ</h2>
-        <p className="my-4 text-lg text-gray-600">
+        <div className="bg-white rounded-2xl shadow-lg p-4 text-center">
+        <p className="my-8 text-xl text-gray-600">
           คณะกรรมการประจำสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร ประจำปี 2568
         </p>
+        
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6'>
           {boardMembers.map((member, index) => (
             <div key={index} className="bg-white rounded-2xl shadow-lg p-4 text-center">
@@ -25,7 +27,8 @@ const Members = () => {
             </div>
           ))}
         </div>
-        <p className="my-8 text-lg text-gray-600">
+        </div>
+        <p className="my-8 text-xl text-gray-600">
           คณะกรรมการกิตติมศักดิ์ประจำสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร
         </p>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6'>

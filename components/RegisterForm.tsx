@@ -47,17 +47,17 @@ const RegisterForm = () => {
 
   return (
     <div className="py-10">
-      <div className="flex flex-col items-start justify-start py-6">
+      <div className="flex flex-col items-center justify-center py-6">
         <div>
           {/* <h2 className="text-5xl font-semibold text-orange mt-4 mb-6">
             กรอกแบบฟอร์ม
           </h2> */}
         </div>
         <div>
-          <p className="text-gray-600">กรอกรายละเอียดให้ครบถ้วน</p>
+          <p className="font-bold text-xl text-gray-600 py-4">กรอกรายละเอียดให้ครบถ้วน</p>
         </div>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <div className="flex flex-col items-center justify-center">
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
@@ -190,6 +190,7 @@ const RegisterForm = () => {
             <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white">Submit</Button>
           </form>
         </Form>
+      </div>
       </div>
     </div>
   );

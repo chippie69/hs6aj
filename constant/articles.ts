@@ -106,8 +106,42 @@ export const articles: Articles[] = [
       },
     ],
     images: [],
-    keywords: [],
+    keywords: [""],
     date: "",
     refference: "https://lib.nbtc.go.th/news/detail/544",
+  },
+  {
+    id: "3",
+    slug: "follow-hs6aj-more",
+    title: "ช่องทางติดตามอื่น ๆ ของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
+    description:
+      "นอกจากเว็บไซต์สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ นี้แล้ว ยังมีช่องทางอื่น ให้เพื่อน ๆ ได้ติดตามอีกนะครับ",
+    data: [
+      {
+        header: "Facebook Fanpage",
+        subheader: [
+          "",
+        ],
+        subimage: [""],
+      },
+      {
+        header: "Line Official Account",
+        subheader: [
+          "",
+        ],
+        subimage: [""],
+      },
+      {
+        header: "ฝากกดติดตามเพื่อเป็นกำลังใจให้ด้วยนะครับ",
+        subheader: [
+          "",
+        ],
+        subimage: [""],
+      },
+    ],
+    images: [],
+    keywords: ["ติดตาม HS6AJ", "ทางช่องติดต่อ HS6AJ", "line hs6aj", "facebook hs6aj"],
+    date: "",
+    refference: "",
   },
 ];

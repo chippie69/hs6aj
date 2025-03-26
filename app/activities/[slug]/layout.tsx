@@ -29,7 +29,32 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
   return {
     title: `${activity.title} - HS6AJ`,
     description: activity.description,
-    keywords: ["hs6aj", "hamradio", "amateur radio", "thailand"],
+    keywords: activity.keywords,
+    openGraph: {
+      title: `${activity.title} - HS6AJ`,
+      description: activity.description,
+      url: 'https://hs6aj.com',
+      siteName: activity.title,
+      images: [
+        {
+          url: '',
+          width: 1200,
+          height: 630,
+          alt: activity.title,  
+        }
+      ],
+      locale: 'th_TH',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${activity.title} - HS6AJ`,
+      description: activity.description,
+      images: ['']
+    },
+    icons: {
+      icon: '/favicon.ico',
+    },
     authors: [{ name: "HS6AJ", url: "https://test.test/" }],
   }
 }

@@ -36,17 +36,19 @@ export default function ArticlePage() {
           <div key={index}>
             <h2>{data.header}</h2>
             {data.subheader.map((subheader, subheaderIndex) => (
-              <li key={subheaderIndex}>{subheader}</li>
+              <p key={subheaderIndex}>{subheader}</p>
             ))}
           </div>
         ))}
       </div>
 
-      <div>
-        <Link href={article.refference}>
-          <p className="my-4">ดูเพิ่มเติม</p>
-        </Link>
-      </div>
+      {article.refference && (
+        <div>
+          <Link href={article.refference}>
+            <p className="my-4">ดูเพิ่มเติม</p>
+          </Link>
+        </div>
+      )}  
     </div>
   );
 }

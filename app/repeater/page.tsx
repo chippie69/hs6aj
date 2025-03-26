@@ -7,9 +7,9 @@ const RepeaterPage = () => {
   return (
     <div className="py-20 bg-white text-gray-900">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold mb-6">รายละเอียด Repeater E24DB</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-6">รายละเอียด Repeater E24BD</h1>
         <p className="text-lg text-gray-700 mb-12">
-          สถานีทวนสัญญาณวิทยุสมัครเล่นจังหวัดพิจิตร (E24DB)
+          สถานีทวนสัญญาณวิทยุสมัครเล่นจังหวัดพิจิตร (E24BD)
           ของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร (HS6AJ)
         </p>
         
@@ -39,10 +39,10 @@ const RepeaterPage = () => {
                 วัดเขารูปช้าง ตำบลดงป่าคำ อำเภอเมือง จังหวัดพิจิตร
               </p>
               <p className="text-gray-600">
-                พิกัด: OK06FS (16°45.55&apos; N, 100°28.84&apos; E)
+                {`พิกัด: OK06eh (16° 19' 10" N, 100° 23' 33" E)`}
               </p>
               <a
-                href="https://maps.app.goo.gl/xfNHcdRVbxpJKgmb7"
+                href="https://maps.app.goo.gl/XksuXHoX2h7j7K7JA"
                 className="text-blue-500 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const RepeaterPage = () => {
               <CardTitle>ความถี่และระบบ</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600">ความถี่: 145.6875 MHz (DUP-600 KHz)</p>
+              <p className="text-gray-600">ความถี่: 145.6875 MHz (DUP -600 KHz)</p>
               <p className="text-gray-600">โทน CTCSS: 103.5 Hz</p>
               <p className="text-gray-600">ระบบ: YAESU DR-2X Repeater</p>
             </CardContent>

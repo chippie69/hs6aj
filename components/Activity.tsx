@@ -12,7 +12,7 @@ const Activities = () => {
     .slice(0, 4);
 
   return (
-    <section className="py-16 bg-white text-gray-900">
+    <section id="activity" className="py-16 bg-white text-gray-900">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 text-center">
         <h2 className="text-3xl md:text-4xl font-bold">กิจกรรมของ HS6AJ</h2>
         <p className="mt-4 text-lg text-gray-600">
