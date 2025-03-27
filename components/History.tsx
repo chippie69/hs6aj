@@ -46,9 +46,9 @@ const History = () => {
               <Handshake className="w-10 h-10 text-lime-500" />
               <h3 className="text-xl font-semibold">พันธกิจสมาคม</h3>
             </div>
-            <p className="text-start text-lg underline mt-2 text-gray-600">
+            <ol className="text-start text-lg underline mt-2 text-gray-600">
               พัฒนาและส่งเสริมเครือข่ายวิทยุสมัครเล่น
-            </p>
+            </ol>
             <li className="text-start text-gray-600">
               สนับสนุนและสร้างเครือข่ายนักวิทยุสมัครเล่นในจังหวัดพิจิตรและทั่วประเทศ
             </li>
@@ -56,9 +56,9 @@ const History = () => {
               ส่งเสริมการใช้งานความถี่ให้เกิดประโยชน์สูงสุด
             </li>
 
-            <p className="text-start text-lg underline mt-2 text-gray-600">
+            <ol className="text-start text-lg underline mt-2 text-gray-600">
               เป็นศูนย์กลางด้านการสื่อสารฉุกเฉินและช่วยเหลือสังคม
-            </p>
+            </ol>
             <li className="text-start text-gray-600">
               สนับสนุนการใช้วิทยุในภาวะฉุกเฉินและภัยพิบัติ
             </li>
@@ -66,9 +66,9 @@ const History = () => {
               ประสานงานกับหน่วยงานภาครัฐและองค์กรช่วยเหลือต่าง ๆ
             </li>
 
-            <p className="text-start text-lg underline mt-2 text-gray-600">
+            <ol className="text-start text-lg underline mt-2 text-gray-600">
               พัฒนาทักษะและองค์ความรู้ด้านวิทยุสื่อสาร
-            </p>
+            </ol>
             <li className="text-start text-gray-600">
               จัดอบรมและให้ความรู้แก่สมาชิกและผู้ที่สนใจ
             </li>
@@ -76,9 +76,9 @@ const History = () => {
               สนับสนุนเยาวชนและประชาชนทั่วไปให้เข้าถึงและได้เรียนรู้เกี่ยวกับวิทยุสื่อสาร
             </li>
 
-            <p className="text-start text-lg underline mt-2 text-gray-600">
+            <ol className="text-start text-lg underline mt-2 text-gray-600">
               ส่งเสริมจรรยาบรรณและมาตรฐานการใช้ความถี่
-            </p>
+            </ol>
             <li className="text-start text-gray-600">
               สร้างความตระหนักรู้เกี่ยวกับกฏระเบียบและมารยาทในการใช้ความถี่
             </li>
@@ -86,9 +86,9 @@ const History = () => {
               รณรงค์ให้สมาชิกใช้วิทยุสื่อสารอย่างรับผิดชอบและสร้างสรรค์
             </li>
 
-            <p className="text-start text-lg underline mt-2 text-gray-600">
+            <ol className="text-start text-lg underline mt-2 text-gray-600">
               สร้างความสัมพันธ์และความร่วมมือกับองค์กรต่าง ๆ
-            </p>
+            </ol>
             <li className="text-start text-gray-600">
               ประสานความร่วมมือกับหน่วยงานที่เกี่ยวข้อง
             </li>
@@ -96,9 +96,9 @@ const History = () => {
               จัดกิจกรรมและโครงการที่เป็นประโยชน์ร่วมกับชุมชนและองค์กรอื่น ๆ
             </li>
 
-            <p className="text-start text-lg underline mt-2 text-gray-600">
+            <ol className="text-start text-lg underline mt-2 text-gray-600">
               พัฒนาศักยภาพและความพร้อมของสมาคม
-            </p>
+            </ol>
             <li className="text-start text-gray-600">
               เสริมสร้างโครงสร้างบริหารงานให้มีประสิทธิภาพ
             </li>

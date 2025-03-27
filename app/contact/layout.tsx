@@ -2,7 +2,7 @@ export async function generateMetadata() {
   return {
     title: `ติดต่อเรา - HS6AJ`,
     description: "ข้อมูลติดต่อและรายละเอียดของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
-    keywords: [""],
+    keywords: ["ติดต่อเรา", "ที่อยู่สมาคม", "อีเมล์สมาคม", "แฟนเพจ", "ไลน์", "Youtube"],
     openGraph: {
       title: `ติดต่อเรา - HS6AJ`,
       description: "ข้อมูลติดต่อและรายละเอียดของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",

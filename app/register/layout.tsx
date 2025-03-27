@@ -1,19 +1,41 @@
 export async function generateMetadata() {
-    return {
+  return {
+    title: `สมัครสมาชิก - HS6AJ`,
+    description: "สมัครสมาชิกกับสมาคมวิทยุสมัครจังหวัดพิจิตร",
+    keywords: ["สมัครสมาชิก", "สมัครสมาชิกสมาคมวิทยุสมัครเล่นพิจิตร", "สมาชิก HS6AJ", "5 ปี", "ตลอดชีพ", "แนบไฟล์"],
+    openGraph: {
       title: `สมัครสมาชิก - HS6AJ`,
       description: "สมัครสมาชิกกับสมาคมวิทยุสมัครจังหวัดพิจิตร",
-      keywords: ["hs6aj", "hamradio", "amateur radio", "thailand"],
-      authors: [{ name: "HS6AJ", url: "https://test.test/" }],
-    };
-  }
-  
-  export default function RootLayout({
-    children,
-  }: Readonly<{
-    children: React.ReactNode;
-  }>) {
-    return <div className="min-h-screen">
-      {children}
-    </div>;
-  }
-  
+      url: "https://hs6aj.com",
+      siteName: `สมัครสมาชิก - HS6AJ`,
+      images: [
+        {
+          url: "",
+          width: 1200,
+          height: 630,
+          alt: `สมัครสมาชิก - HS6AJ`,
+        },
+      ],
+      locale: "th_TH",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `สมัครสมาชิก - HS6AJ`,
+      description: "สมัครสมาชิกกับสมาคมวิทยุสมัครจังหวัดพิจิตร",
+      images: [""],
+    },
+    icons: {
+      icon: "/favicon.ico",
+    },
+    authors: [{ name: "HS6AJ", url: "https://test.test/" }],
+  };
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return <div className="min-h-screen">{children}</div>;
+}

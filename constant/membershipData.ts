@@ -1,32 +1,32 @@
 export const MemberData = [
     {
-        image: "https://dummyimage.com/150x100/000/fff",
-        name: "นายชิติพัทธ์ จิราพงษ์",
-        callsign: "E25ZDB",
+        image: "/dummy/49.jpg",
+        name: "นางสาวรัตนพร หางวา",
+        callsign: "E23ELK",
         id: "OK06-999",
         membershipType: "5 ปี",
-        startDate: "1/1/2568",
-        endDate: "1/1/2573",
+        startDate: "20/3/2568",
+        endDate: "21/3/2573",
+        presidentName: "นายระพีพัชร สุดจิตต์",
+    },
+    {
+        image: "/dummy/8.jpg",
+        name: "นายไพรสันต์ กันเพ็ชร์",
+        callsign: "E23ZKW",
+        id: "OK06-888",
+        membershipType: "5 ปี",
+        startDate: "20/3/2568",
+        endDate: "21/3/2573",
         presidentName: "นายระพีพัชร สุดจิตต์"
     },
     {
-        image: "https://dummyimage.com/150x100/000/fff",
-        name: "นายชิติพัทธ์ จิราพงษ์",
-        callsign: "E25ZDB",
+        image: "/dummy/49.jpg",
+        name: "นางสาววิธาภรณ์ กนกอนันต์",
+        callsign: "HS5VLP",
         id: "OK06-999",
-        membershipType: "5 ปี",
-        startDate: "1/1/2568",
-        endDate: "1/1/2573",
-        presidentName: "นายระพีพัชร สุดจิตต์"
-    },
-    {
-        image: "https://dummyimage.com/150x100/000/fff",
-        name: "นายชิติพัทธ์ จิราพงษ์",
-        callsign: "E25ZDB",
-        id: "OK06-999",
-        membershipType: "5 ปี",
-        startDate: "1/1/2568",
-        endDate: "1/1/2573",
+        membershipType: "ตลอดชีพ",
+        startDate: "16/3/2568",
+        endDate: "ตลอดชีพ",
         presidentName: "นายระพีพัชร สุดจิตต์"
     },
 ]
