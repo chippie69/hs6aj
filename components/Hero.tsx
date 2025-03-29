@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen flex items-center justify-center bg-gray-900 text-white">
+    <section id="hero" className="relative w-full h-screen flex items-center justify-center bg-gray-900 text-white">
       <div className="absolute inset-0">
         <Image
           src="/images/hero_image.png"
@@ -18,7 +18,7 @@ const Hero = () => {
         <p className="my-8 text-4xl text-gray-300">
           HS6AJ
         </p>
-        <div className="mt-6 flex gap-4 justify-center">
+        <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
           <Link href="#register">
             <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-lg rounded-lg">
               สมัครสมาชิก

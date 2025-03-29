@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ',
     description: 'เว็บไซต์อย่างเป็นทางการของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตรอยู่ภายใต้การกำกับดูแลของ กสทช. มีเนื้อหาต่าง ๆ ข่าวสาร กิจกรรม และข้อมูลสำหรับนักวิทยุสมัครเล่น',
-    url: 'https://hs6aj.com',
+    url: process.env.HOST_URL,
     siteName: 'สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ',
     images: [
       {
@@ -47,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="th">
       <Header />
       <body
         className={prompt.className}

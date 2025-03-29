@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `บทความที่น่าสนใจทั้งหมด - HS6AJ`,
     description: "บทความเกี่ยวกับวิทยุสื่อสาร ข้อมูล ข่าวสารต่าง ๆ ที่น่าสนใจ",
-    url: "https://hs6aj.com",
+    url: `${process.env.HOST_URL}/articles`,
     siteName: `บทความที่น่าสนใจทั้งหมด - HS6AJ`,
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  authors: [{ name: "HS6AJ", url: "https://test.test/" }],
+  authors: [{ name: "HS6AJ", url: process.env.HOST_URL }],
 };
 
 export default function RootLayout({

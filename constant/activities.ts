@@ -28,7 +28,7 @@ export const activities: Activity[] = [
         keywords: [""],
         date: "2024-02-24",
         author: "",
-        images: ["/images/charity-kitchen-kao-roob-chang-8.jpg", "/images/charity-kitchen-kao-roob-chang-2.jpg", "/images/charity-kitchen-kao-roob-chang-3.jpg", "/images/charity-kitchen-kao-roob-chang-4.jpg", "/images/charity-kitchen-kao-roob-chang-5.jpg", "/images/charity-kitchen-kao-roob-chang-6.jpg", "/images/charity-kitchen-kao-roob-chang-7.jpg", "/images/charity-kitchen-kao-roob-chang-1.jpg", "/images/charity-kitchen-kao-roob-chang-9.jpg", "/images/charity-kitchen-kao-roob-chang-10.jpg", "/images/charity-kitchen-kao-roob-chang-11.jpg", "/images/charity-kitchen-kao-roob-chang-12.jpg", "/images/charity-kitchen-kao-roob-chang-13.jpg", "/images/charity-kitchen-kao-roob-chang-14.jpg", "/images/charity-kitchen-kao-roob-chang-15.jpg", "/images/charity-kitchen-kao-roob-chang-16.jpg", "/images/charity-kitchen-kao-roob-chang-17.jpg"]
+        images: ["/images/activities/2025/charity-kitchen-kao-roob-chang-8.jpg", "/images/charity-kitchen-kao-roob-chang-2.jpg", "/images/charity-kitchen-kao-roob-chang-3.jpg", "/images/activities/2025/charity-kitchen-kao-roob-chang-4.jpg", "/images/charity-kitchen-kao-roob-chang-5.jpg", "/images/charity-kitchen-kao-roob-chang-6.jpg", "/images/activities/2025/charity-kitchen-kao-roob-chang-7.jpg", "/images/charity-kitchen-kao-roob-chang-1.jpg", "/images/charity-kitchen-kao-roob-chang-9.jpg", "/images/activities/2025/charity-kitchen-kao-roob-chang-10.jpg", "/images/charity-kitchen-kao-roob-chang-11.jpg", "/images/charity-kitchen-kao-roob-chang-12.jpg", "/images/activities/2025/charity-kitchen-kao-roob-chang-13.jpg", "/images/charity-kitchen-kao-roob-chang-14.jpg", "/images/charity-kitchen-kao-roob-chang-15.jpg", "/images/activities/2025/charity-kitchen-kao-roob-chang-16.jpg", "/images/charity-kitchen-kao-roob-chang-17.jpg"]
     },
     {
         id: "3",
@@ -58,7 +58,7 @@ export const activities: Activity[] = [
         keywords: [""],
         date: "2024-08-09",
         author: "",
-        images: ["/images/HS0AB_visit_HS6AJ_1.jpg", "/images/HS0AB_visit_HS6AJ_2.jpg", "/images/HS0AB_visit_HS6AJ_3.jpg", "/images/HS0AB_visit_HS6AJ_4.jpg", "/images/HS0AB_visit_HS6AJ_5.jpg", "/images/HS0AB_visit_HS6AJ_6.jpg", "/images/HS0AB_visit_HS6AJ_7.jpg", "/images/HS0AB_visit_HS6AJ_8.jpg", "/images/HS0AB_visit_HS6AJ_9.jpg", "/images/HS0AB_visit_HS6AJ_10.jpg", "/images/HS0AB_visit_HS6AJ_11.jpg", "/images/HS0AB_visit_HS6AJ_12.jpg"]
+        images: ["/images/activities/2025/HS0AB_visit_HS6AJ_1.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_2.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_3.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_4.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_5.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_6.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_7.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_8.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_9.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_10.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_11.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_12.jpg"]
     },
     {
         id: "6",
@@ -98,7 +98,7 @@ export const activities: Activity[] = [
         keywords: [""],
         date: "2024-02-08",
         author: "",
-        images: ["/images/hs6aj-tfdc-2025-1.jpg", "/images/hs6aj-tfdc-2025-2.jpg", "/images/hs6aj-tfdc-2025-3.jpg", "/images/hs6aj-tfdc-2025-4.jpg", "/images/hs6aj-tfdc-2025-5.jpg", "/images/hs6aj-tfdc-2025-6.jpg", "/images/hs6aj-tfdc-2025-7.jpg", "/images/hs6aj-tfdc-2025-8.jpg", "/images/hs6aj-tfdc-2025-9.jpg"]
+        images: ["/images/activities/2025/hs6aj-tfdc-2025-1.jpg", "/images/activities/2025/hs6aj-tfdc-2025-2.jpg", "/images/activities/2025/hs6aj-tfdc-2025-3.jpg", "/images/activities/2025/hs6aj-tfdc-2025-4.jpg", "/images/activities/2025/hs6aj-tfdc-2025-5.jpg", "/images/activities/2025/hs6aj-tfdc-2025-6.jpg", "/images/activities/2025/hs6aj-tfdc-2025-7.jpg", "/images/activities/2025/hs6aj-tfdc-2025-8.jpg", "/images/activities/2025/hs6aj-tfdc-2025-9.jpg"]
     },
     {
         id: "10",
@@ -108,7 +108,7 @@ export const activities: Activity[] = [
         keywords: [""],
         date: "2024-03-08",
         author: "",
-        images: ["/images/hs6aj-meeting-2023-20.jpg", "/images/hs6aj-meeting-2023-9.jpg", "/images/hs6aj-meeting-2023-23.jpg", "/images/hs6aj-meeting-2023-24.jpg", "/images/hs6aj-meeting-2023-25.jpg", "/images/hs6aj-meeting-2023-30.jpg", "/images/hs6aj-meeting-2023-5.jpg"]
+        images: ["/images/activities/2025/hs6aj-meeting-2023-20.jpg", "/images/activities/2025/hs6aj-meeting-2023-9.jpg", "/images/activities/2025/hs6aj-meeting-2023-23.jpg", "/images/activities/2025/hs6aj-meeting-2023-24.jpg", "/images/activities/2025/hs6aj-meeting-2023-25.jpg", "/images/activities/2025/hs6aj-meeting-2023-30.jpg", "/images/activities/2025/hs6aj-meeting-2023-5.jpg"]
     },
     {
         id: "11",
@@ -118,6 +118,6 @@ export const activities: Activity[] = [
         keywords: ["สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร", "HS6AJ", "งานคืนสู่เหย้า 50 ปี น้องพี่เทาทอง", "โรงเรียนสากเหล็กวิทยา", "กิจกรรมสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร", "กิจกรรม HS6AJ"],
         date: "2025-03-22",
         author: "",
-        images: ["/images/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-1.jpg", "/images/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-2.jpg", "/images/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-3.jpg", "/images/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-4.jpg"]
+        images: ["/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-1.jpg", "/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-2.jpg", "/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-3.jpg", "/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-4.jpg"]
     }
 ]

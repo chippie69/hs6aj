@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
     openGraph: {
       title: `${activity.title} - HS6AJ`,
       description: activity.description,
-      url: 'https://hs6aj.com',
+      url: `${process.env.HOST_URL}/activities/${activity.slug}`,
       siteName: activity.title,
       images: [
         {
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
     icons: {
       icon: '/favicon.ico',
     },
-    authors: [{ name: "HS6AJ", url: "https://test.test/" }],
+    authors: [{ name: "HS6AJ", url: process.env.HOST_URL }],
   }
 }
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `กิจกรรมทั้งหมด - HS6AJ`,
     description: "กิจกรรมที่ผ่านมาของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ",
-    url: "https://hs6aj.com",
+    url: `${process.env.HOST_URL}/activities`,
     siteName: `กิจกรรมทั้งหมด - HS6AJ`,
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  authors: [{ name: "HS6AJ", url: "https://test.test/" }],
+  authors: [{ name: "HS6AJ", url: process.env.HOST_URL }],
 };
 
 export default function RootLayout({

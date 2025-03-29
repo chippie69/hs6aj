@@ -14,7 +14,7 @@ const Faq = () => {
           รวบรวมคำถามที่พบบ่อยเกี่ยวกับสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร
         </p>
         <div>
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full text-gray-600">
             <AccordionItem value="item-1">
               <AccordionTrigger>
                 ฉันจะเป็นสมาชิกกับสมาคมวิทยุสมัครเล่นจังหวัดพิจิตรได้อย่างไร?
@@ -51,8 +51,8 @@ const Faq = () => {
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-              <AccordionTrigger>คำถาม</AccordionTrigger>
-              <AccordionContent>- คำตอบ</AccordionContent>
+              <AccordionTrigger>นายกสมาคมหล่อไหม</AccordionTrigger>
+              <AccordionContent>- แน่นอน หล่ออยู่แล้วสิ แต่หล่อน้อยกว่าคนทำเว็บนิดนึง</AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">
               <AccordionTrigger>คำถาม</AccordionTrigger>

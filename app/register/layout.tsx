@@ -6,7 +6,7 @@ export async function generateMetadata() {
     openGraph: {
       title: `สมัครสมาชิก - HS6AJ`,
       description: "สมัครสมาชิกกับสมาคมวิทยุสมัครจังหวัดพิจิตร",
-      url: "https://hs6aj.com",
+      url: `${process.env.HOST_URL}/register`,
       siteName: `สมัครสมาชิก - HS6AJ`,
       images: [
         {
@@ -28,7 +28,7 @@ export async function generateMetadata() {
     icons: {
       icon: "/favicon.ico",
     },
-    authors: [{ name: "HS6AJ", url: "https://test.test/" }],
+    authors: [{ name: "HS6AJ", url: process.env.HOST_URL }],
   };
 }
 

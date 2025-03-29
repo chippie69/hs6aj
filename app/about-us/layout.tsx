@@ -1,12 +1,12 @@
 export async function generateMetadata() {
   return {
     title: `เกี่ยวกับเรา - HS6AJ`,
-    description: "",
-    keywords: [""],
+    description: "ข้อมูล รายละเอียดเกี่ยวกับสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
+    keywords: ["เกี่ยวกับ HS6AJ", "รายละเอียดสมาคม", "การก่อต้ัง HS6AJ"],
     openGraph: {
       title: `เกี่ยวกับเรา - HS6AJ`,
       description: "",
-      url: "https://hs6aj.com",
+      url: `${process.env.HOST_URL}/about-us`,
       siteName: `เกี่ยวกับเรา - HS6AJ`,
       images: [
         {
@@ -28,7 +28,7 @@ export async function generateMetadata() {
     icons: {
       icon: "/favicon.ico",
     },
-    authors: [{ name: "HS6AJ", url: "https://test.test/" }],
+    authors: [{ name: "HS6AJ", url: process.env.HOST_URL }],
   };
 }
 

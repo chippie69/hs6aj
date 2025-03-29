@@ -28,7 +28,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header
+    <section
       className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
         isScrolled ? "bg-white/30 backdrop-blur-xl shadow-md" : "bg-transparent"
       }`}
@@ -49,7 +49,7 @@ const Header = () => {
             <MobileNav />
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 
