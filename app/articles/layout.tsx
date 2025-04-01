@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: `บทความที่น่าสนใจทั้งหมด - HS6AJ`,
   description: "บทความเกี่ยวกับวิทยุสื่อสาร ข้อมูล ข่าวสารต่าง ๆ ที่น่าสนใจ",
-  keywords: ["บทความ HS6AJ", "ข่าวสาร HS6AJ", "ความรู้ HS6AJ", "ข้อมูล HS6AJ"],
+  keywords: ["บทความ HS6AJ", "ข่าวสาร HS6AJ", "ความรู้ HS6AJ", "ข้อมูล HS6AJ", "ประชาสัมพันธ์ HS6AJ"],
   openGraph: {
     title: `บทความที่น่าสนใจทั้งหมด - HS6AJ`,
     description: "บทความเกี่ยวกับวิทยุสื่อสาร ข้อมูล ข่าวสารต่าง ๆ ที่น่าสนใจ",

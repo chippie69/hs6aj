@@ -95,9 +95,9 @@ export const activities: Activity[] = [
         title: "เข้าร่วมแข่งขัน Thailand Field Day Contest 2025",
         description: "ปีนี้ HS6AJ มีโอกาสได้เข้าร่วมการแข่งขัน Thailand Field Day Contest ที่เป็นการแข่งขันย่านความถี่ VHF 144-147 MHz ของนักวิทยุสมัครเล่นไทย โดยมีวัตถุประสงค์หลักเพื่อเป็นการเตรียมความพร้อมของนักวิทยุสมัครเล่นในการรองรับเหตุการณ์ฉุกเฉินหรือ ภัยพิบัติให้สามารถแก้ไขปัญหาและดำเนินการติดต่อสื่อสารประสานงานกันได้อย่างมีประสิทธิภาพและรวดเร็วอีกทั้งเป็นการช่วยให้ลดจำนวน การสูญเสียจากเหตุฉุกเฉินหรือภัยพิบัติที่เกิดขึ้นทั้งต่อชีวิต ทรัพย์สิน ชุมชน และประเทศชาติได้ แข่งขันกัน 24 ชั่วโมง เริ่มออกอากาศวันเสาร์ที่ 8 ก.พ. 2568 12.00 น.สิ้นสุดออกอากาศวันอาทิตย์ที่ 9 ก.พ. 2568 12.00 น.",
         slug: "hs6aj-thailand-field-day-contest-2025",
-        keywords: [""],
+        keywords: ["Thailand Field Day Contest 2025", "TFDC HS6AJ", "แข่งขัน TFDC", "แข่งขันออกอากาศ"],
         date: "2024-02-08",
-        author: "",
+        author: "HS6AJ",
         images: ["/images/activities/2025/hs6aj-tfdc-2025-1.jpg", "/images/activities/2025/hs6aj-tfdc-2025-2.jpg", "/images/activities/2025/hs6aj-tfdc-2025-3.jpg", "/images/activities/2025/hs6aj-tfdc-2025-4.jpg", "/images/activities/2025/hs6aj-tfdc-2025-5.jpg", "/images/activities/2025/hs6aj-tfdc-2025-6.jpg", "/images/activities/2025/hs6aj-tfdc-2025-7.jpg", "/images/activities/2025/hs6aj-tfdc-2025-8.jpg", "/images/activities/2025/hs6aj-tfdc-2025-9.jpg"]
     },
     {
@@ -105,9 +105,9 @@ export const activities: Activity[] = [
         title: "ประชุมใหญ่สามัญประจำปี 2567 ครั้งที่ 2",
         description: "สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ นัดหมายสมาชิกประชุมใหญ่สามัญประจำปี 2567 ครั้งที่ 2 ณ ห้องประชุม โรงเรียนอนุบาลสากเหล็ก อ.สากเหล็ก จ.พิจิตร วันเสาร์ที่ 8 มีนาคม 2568 ตั้งแต่เวลา 09.30-12.00 น. เป็นไปด้วยความเรียบร้อย มีผู้เข้าร่วมประชุมจำนวน 24 ท่าน สมาชิกผู้เข้าร่วมประชุมมีมติเป็นเอกฉันท์เลือกนายสุพจน์ พันสด E24XQM เป็นนายกสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร",
         slug: "hs6aj-annual-meeting-2023-round-2",
-        keywords: [""],
+        keywords: ["ประชุมประจำปี", "ประชุมสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร", "เลือกตั้งนายกสมาคม", "ประชุมประจำปี 2568"],
         date: "2024-03-08",
-        author: "",
+        author: "HS6AJ",
         images: ["/images/activities/2025/hs6aj-meeting-2023-20.jpg", "/images/activities/2025/hs6aj-meeting-2023-9.jpg", "/images/activities/2025/hs6aj-meeting-2023-23.jpg", "/images/activities/2025/hs6aj-meeting-2023-24.jpg", "/images/activities/2025/hs6aj-meeting-2023-25.jpg", "/images/activities/2025/hs6aj-meeting-2023-30.jpg", "/images/activities/2025/hs6aj-meeting-2023-5.jpg"]
     },
     {
@@ -117,7 +117,7 @@ export const activities: Activity[] = [
         slug: "hs6aj-join-saklekwittaya-school-50th-anniversary-2025",
         keywords: ["สมาคมวิทยุสมัครเล่นจังหวัดพิจิตร", "HS6AJ", "งานคืนสู่เหย้า 50 ปี น้องพี่เทาทอง", "โรงเรียนสากเหล็กวิทยา", "กิจกรรมสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร", "กิจกรรม HS6AJ"],
         date: "2025-03-22",
-        author: "",
+        author: "HS6AJ",
         images: ["/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-1.jpg", "/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-2.jpg", "/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-3.jpg", "/images/activities/2025/hs6aj-join-saklekwittaya-school-50th-anniversary-2025-4.jpg"]
     }
 ]

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: `กิจกรรมทั้งหมด - HS6AJ`,
   description: "กิจกรรมที่ผ่านมาของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ",
-  keywords: ["กิจกรรม HS6AJ", "การบริจาค HS6AJ", "มอบสิ่งของ HS6AJ", "ช่วยเหลือ HS6AJ"],
+  keywords: ["กิจกรรม HS6AJ", "การบริจาค HS6AJ", "มอบสิ่งของ HS6AJ", "มอบความช่วยเหลือโดย HS6AJ", "กิจกรรมตลอดทั้งปี HS6AJ", "กิจกรรมทั้งหมด HS6AJ"],
   openGraph: {
     title: `กิจกรรมทั้งหมด - HS6AJ`,
     description: "กิจกรรมที่ผ่านมาของสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร HS6AJ",

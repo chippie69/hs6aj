@@ -1,13 +1,13 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { notFound } from "next/navigation"
+import { notFound } from "next/navigation";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { activities } from "@/constant/activities";
+import { formatThaiDate } from "@/lib/utils";
 
 export default function ActivityPage() {
-
   const { slug } = useParams();
 
   const activity = activities.find((a) => a.slug === slug);
@@ -22,16 +22,18 @@ export default function ActivityPage() {
   }));
 
   return (
-
     <div className="container mx-auto px-4 lg:px-8 mt-20">
       <div className="text-center">
         <h2 className="text-3xl font-bold text-gray-800">{activity.title}</h2>
         <p className="text-gray-600 mt-2 text-lg">{activity.description}</p>
-        <p className="text-gray-500 mt-1 text-sm">{activity.date}</p>
+        <div className="flex flex-row items-center justify-between mt-8">
+          <p className="text-gray-500 text-xs">{formatThaiDate(activity.date)}</p>
+          <p className="text-gray-500 text-xs">ผู้เขียน {activity.author}</p>
+        </div>
       </div>
 
       <div className="mt-8 shadow-lg rounded-lg overflow-hidden border border-gray-200 p-4 bg-white">
-        <ImageGallery 
+        <ImageGallery
           items={images}
           showPlayButton={false}
           showFullscreenButton={true}
@@ -42,7 +44,7 @@ export default function ActivityPage() {
         />
       </div>
     </div>
-    
+
     // <div className="mt-20 container mx-auto">
     //   <div className="">
     //     <div>

@@ -6,6 +6,7 @@ import { useParams } from "next/navigation";
 import { notFound } from "next/navigation";
 
 import { articles } from "@/constant/articles";
+import { Button } from "@/components/ui/button";
 
 export default function ArticlePage() {
   const { slug } = useParams();
@@ -42,10 +43,11 @@ export default function ArticlePage() {
         ))}
       </div>
 
-      {article.refference && (
+      {article.reference && (
         <div>
-          <Link href={article.refference}>
-            <p className="my-4">ดูเพิ่มเติม</p>
+          <Link href={article.reference}>
+            {/* <p className="text-blue-500 underline my-4 hover:text-blue-700">ดูเพิ่มเติม</p> */}
+            <Button variant="link">ดูเพิ่มเติม</Button>
           </Link>
         </div>
       )}  

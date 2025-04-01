@@ -11,7 +11,8 @@ export interface Articles {
   images: string[];
   keywords: string[];
   date: string;
-  refference: string;
+  author: string;
+  reference: string;
 }
 
 export const articles: Articles[] = [
@@ -47,11 +48,19 @@ export const articles: Articles[] = [
         ],
         subimage: [""],
       },
+      {
+        header: "สนใจสอบ",
+        subheader: [
+          "หากมีความสนใจและประสงค์เข้าร่วมอบรมและสอบหรือสอบอย่างเดียว สามารถติดต่อไปที่สมาคมที่ดูแลการสอบครั้งนั้น ๆ ได้เลยนะครับ"
+        ],
+        subimage: [""]
+      }
     ],
     images: ["/images/amateur-radio-license-training-exam-2025-1.jpg"],
     keywords: [],
     date: "",
-    refference:
+    author: "",
+    reference:
       "https://www.nbtc.go.th/Business/commu/radio/licensing/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%AD%E0%B8%9A-%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%AD%E0%B8%9A-%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B8%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99/%E0%B8%81%E0%B8%B3%E0%B8%AB%E0%B8%99%E0%B8%94%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A7/68377.aspx?lang=th-TH",
   },
   {
@@ -108,7 +117,8 @@ export const articles: Articles[] = [
     images: [],
     keywords: [""],
     date: "",
-    refference: "https://lib.nbtc.go.th/news/detail/544",
+    author: "",
+    reference: "https://lib.nbtc.go.th/news/detail/544",
   },
   {
     id: "3",
@@ -142,6 +152,7 @@ export const articles: Articles[] = [
     images: [],
     keywords: ["ติดตาม HS6AJ", "ทางช่องติดต่อ HS6AJ", "line hs6aj", "facebook hs6aj"],
     date: "",
-    refference: "",
+    author: "HS6AJ",
+    reference: "",
   },
 ];
