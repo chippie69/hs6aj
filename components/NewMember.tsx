@@ -14,10 +14,13 @@ const NewMember = () => {
         <p className="my-4 text-lg text-gray-600">
           ขอขอบคุณที่เข้ามาเป็นส่วนหนึ่งของครอบครัวสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร
         </p>
-        <div className="flex flex-row whitespace-nowrap gap-4">
-          {MemberData.map((member, index) => (
-            <MembershipCard key={index} {...member} />
-          ))}
+        <div className="relative flex overflow-x-hidden">
+
+          <div className="flex flex-row whitespace-nowrap animate-[marquee_30s_linear_infinite] gap-4">
+            {MemberData.map((member, index) => (
+              <MembershipCard key={index} {...member} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
