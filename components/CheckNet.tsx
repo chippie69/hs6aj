@@ -16,7 +16,7 @@ const CheckNet = () => {
         </p>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-4 gap-6">
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <div className="flex flex-row items-center justify-center gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <RadioTower className="h-10 w-10 text-blue-500" />
               <h3 className="text-xl font-semibold">ระบบ FM</h3>
             </div>
@@ -30,26 +30,31 @@ const CheckNet = () => {
             </Link>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <div className="flex flex-row items-center justify-center gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <Radio className="h-10 w-10 text-orange-500" />
               <h3 className="text-xl font-semibold">ระบบ AllStarLink</h3>
             </div>
             <p className="mt-2 text-gray-600">AllStarLink Node 597910</p>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <div className="flex flex-row items-center justify-center gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <Radio className="h-10 w-10 text-green-500" /> 
               <h3 className="text-xl font-semibold">ระบบ Echolink</h3>
             </div>
             <p className="mt-2 text-gray-600">Echolink E25LO-R</p>
           </div>
           <div className="p-6 bg-gray-100 rounded-xl shadow-lg">
-            <div className="flex flex-row items-center justify-center gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4">
               <Radio className="w-10 h-10 text-pink-500" />
               <h3 className="text-xl font-semibold">ระบบ D-STAR</h3>
             </div>
             <p className="mt-2 text-gray-600">D-STAR XLX 149 Module P</p>
           </div>
+        </div>
+        <div className="mt-6">
+          <p className="text-lg text-gray-600">
+            แล้วพบกันบนความถี่นะครับ
+          </p>
         </div>
       </div>
     </section>

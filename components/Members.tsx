@@ -3,7 +3,7 @@ import { boardMembers, boardSpecialMembers } from "@/constant";
 
 const Members = () => {
   return (
-    <section id="member" className="py-20">
+    <section id="member" className="py-16 bg-white text-gray-900">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 text-center">
         <h2 className="text-3xl font-bold text-center my-4">
           คณะกรรมการประจำสมาคมวิทยุสมัครเล่นจังหวัดพิจิตร ประจำปี 2568

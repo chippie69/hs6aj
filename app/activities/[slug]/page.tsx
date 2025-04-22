@@ -6,6 +6,8 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { activities } from "@/constant/activities";
 import { formatThaiDate } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function ActivityPage() {
   const { slug } = useParams();
@@ -42,6 +44,12 @@ export default function ActivityPage() {
           showThumbnails={true}
           thumbnailPosition="bottom"
         />
+      </div>
+
+      <div className="flex items-center justify-center p-6">
+        <Link href="/activities">
+          <Button variant="outline">กิจกรรมอื่น ๆ</Button>
+        </Link>
       </div>
     </div>
 

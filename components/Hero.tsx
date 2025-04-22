@@ -18,6 +18,7 @@ const Hero = () => {
         <p className="my-8 text-4xl text-gray-300">
           HS6AJ
         </p>
+        <p className="my-4 text-2xl text-gray-300">ถิ่นประสูติพระเจ้าเสือ แข่งเรือยาวประเพณี พระเครื่องดีหลวงพ่อเงิน เพลิดเพลินบึงสีไฟ ศูนย์รวมใจหลวงพ่อเพชร รสเด็ดส้มท่าข่อย ข้าวเจ้าอร่อยลือเลือง ตำนานเมืองชาละวัน</p>
         <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
           <Link href="#register">
             <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-lg rounded-lg">
@@ -26,17 +27,17 @@ const Hero = () => {
           </Link>
 
           <Link href="https://lin.ee/Fk3FcoM">
-          <Button variant="line">
-            <Image
-              src="/images/LINE_Brand_icon.png"
-              alt="line icon"
-              width={30}
-              height={30}
-              className="object-fill"
-            />
-            <p className="font-bold">เพิ่มเพื่อนเลย</p>
-          </Button>
-        </Link>
+            <Button variant="line">
+              <Image
+                src="/images/LINE_Brand_icon.png"
+                alt="line icon"
+                width={30}
+                height={30}
+                className="object-fill"
+              />
+              <p className="font-bold">เพิ่มเพื่อนเลย</p>
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

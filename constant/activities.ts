@@ -57,7 +57,7 @@ export const activities: Activity[] = [
         slug: "HS0AB-visit-HS6AJ",
         keywords: [""],
         date: "2024-08-09",
-        author: "",
+        author: "HS6AJ",
         images: ["/images/activities/2025/HS0AB_visit_HS6AJ_1.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_2.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_3.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_4.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_5.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_6.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_7.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_8.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_9.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_10.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_11.jpg", "/images/activities/2025/HS0AB_visit_HS6AJ_12.jpg"]
     },
     {

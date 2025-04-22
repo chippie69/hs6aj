@@ -4,7 +4,7 @@ import { MemberData } from "@/constant/membershipData";
 
 const NewMember = () => {
   return (
-    <section id="newMember" className="py-20">
+    <section id="newMember" className="py-16 bg-white text-gray-900">
       <div className="container mx-auto px-6 md:px-12 lg:px-20 text-center">
         <h1 className="text-3xl font-bold">สมาชิก HS6AJ ล่าสุด</h1>
         {/* <span className="relative flex size-3">
